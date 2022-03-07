@@ -22,7 +22,7 @@ const FormBMI = () => {
     return (
         <>
             <div className='card p-3'>
-                <h2 className='text-center fw-bold'>BMI Kalkulator</h2>
+                <h2 className='text-center fw-bold'>Kalkulator BMI</h2>
                 <form onSubmit={calculate}>
                     <div className='form-group mb-3'>
                         <TextInput label='Berat (ex: 60)' type='number' onChange={(e) => setMass(e.target.value)} id='weight' value={mass} placeholder='Silakan masukkan berat anda' min='30' extra='Kg' margin='me-3' />
