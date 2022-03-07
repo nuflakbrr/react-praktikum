@@ -6,8 +6,8 @@ import Alert from './Alert'
 import Modal from './Modal'
 
 const FormBMI = () => {
-    const [height, setHeight] = useState(1.0)
-    const [mass, setMass] = useState(30)
+    const [height, setHeight] = useState(0)
+    const [mass, setMass] = useState(0)
     const [bmi, setBmi] = useState(0)
 
     const calculate = (e) => {
@@ -32,7 +32,7 @@ const FormBMI = () => {
                         <TextInput label='Berat (ex: 60)' type='number' onChange={(e) => setMass(e.target.value)} id='weight' value={mass} placeholder='Silakan masukkan berat anda' min='30' extra='Kg' margin='me-3' />
                     </div>
                     <div className='form-group my-3'>
-                        <TextInput label='Tinggi (ex: 1.7)' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' min='1' extra='Mt' margin='me-3' />
+                        <TextInput label='Tinggi (ex: 1.7)' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' extra='Mt' margin='me-3' />
                     </div>
                     <hr />
                     <div className='d-flex align-items-end justify-content-end'>
