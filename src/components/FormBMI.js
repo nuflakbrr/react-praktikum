@@ -25,10 +25,10 @@ const FormBMI = () => {
                 <h2 className='text-center fw-bold'>BMI Kalkulator</h2>
                 <form onSubmit={calculate}>
                     <div className='form-group mb-3'>
-                        <TextInput label='Berat' type='number' onChange={(e) => setMass(e.target.value)} id='weight' value={mass} placeholder='Silakan masukkan berat anda' min='30' extra='Kg' margin='me-3' />
+                        <TextInput label='Berat (ex: 60)' type='number' onChange={(e) => setMass(e.target.value)} id='weight' value={mass} placeholder='Silakan masukkan berat anda' min='30' extra='Kg' margin='me-3' />
                     </div>
                     <div className='form-group my-3'>
-                        <TextInput label='Tinggi' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' extra='M' margin='me-3' />
+                        <TextInput label='Tinggi (ex: 1.7)' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' extra='M' margin='me-3' />
                     </div>
                     <hr />
                     <div className='d-flex align-items-end justify-content-end'>
@@ -40,9 +40,9 @@ const FormBMI = () => {
                 <h2 className='text-center fw-bold'>Hasil</h2>
                 {
                     bmi < 18.5 ? <Alert heading='Kekurangan Berat Badan (Kurus)' type='danger' icons='bi-exclamation-triangle-fill' />
-                        : bmi < 25 ? <Alert heading='Normal' type='success' icons='bi-check-circle-fill' />
-                            : bmi < 30 ? <Alert heading='Overweight' type='warning' icons='bi-exclamation-triangle-fill' />
-                                : <Alert heading='Obese' type='danger' icons='bi-exclamation-triangle-fill' />
+                        : bmi < 25 ? <Alert heading='Berat Badan Normal' type='success' icons='bi-check-circle-fill' />
+                            : bmi < 30 ? <Alert heading='Kelebihan Berat Badan (Gemuk)' type='warning' icons='bi-exclamation-triangle-fill' />
+                                : <Alert heading='Obesitas' type='danger' icons='bi-exclamation-triangle-fill' />
                 }
             </div>
         </>
