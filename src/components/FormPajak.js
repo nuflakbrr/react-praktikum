@@ -1,23 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import TextInput from './TextInput'
 import Modal from './Modal'
 
 function FormPajak() {
-    // create state pajak PPN
-    const [ppn, setPpn] = useState(0)
-
-    // rumus pajak PPN
-    const calculate = (e) => {
-        e.preventDefault()
-        const formValid = ppn > 0
-        if (!formValid) {
-            return
-        }
-        const pajak = ppn * 0.1
-        setPpn(pajak)
-    }
-
     return (
         <>
             <div className='card p-3'>
