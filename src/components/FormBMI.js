@@ -28,7 +28,7 @@ const FormBMI = () => {
                         <TextInput label='Berat (ex: 60)' type='number' onChange={(e) => setMass(e.target.value)} id='weight' value={mass} placeholder='Silakan masukkan berat anda' min='30' extra='Kg' margin='me-3' />
                     </div>
                     <div className='form-group my-3'>
-                        <TextInput label='Tinggi (ex: 1.7)' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' min='1' extra='M' margin='me-3' />
+                        <TextInput label='Tinggi (ex: 1.7)' type='number' onChange={(e) => setHeight(e.target.value)} id='height' value={height} placeholder='Silakan masukkan tinggi anda' min='1' extra='Mt' margin='me-3' />
                     </div>
                     <hr />
                     <div className='d-flex align-items-end justify-content-end'>

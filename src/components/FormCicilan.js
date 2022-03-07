@@ -10,15 +10,16 @@ function FormCicilan() {
                 <h2 className='text-center fw-bold'>Kalkulator Cicilan Bank</h2>
                 <form>
                     <div className='form-group mb-3'>
-                        <TextInput label='Nominal' />
+                        <TextInput label='Nominal' type='number' />
                     </div>
                     <div className='form-group mb-3'>
-                        <TextInput label='Bunga' />
+                        <TextInput label='Bunga' type='number' margin='me-4' extra='%' />
                     </div>
                     <div className='form-group mb-3'>
-                        <TextSelect label='Periode' margin='me-3' extra='bulan' />
+                        <TextSelect label='Periode' margin='me-3' extra='bln' />
                     </div>
                 </form>
+                <hr />
                 <div className='d-flex align-items-end justify-content-end'>
                     <button type='submit' className='btn btn-dark'>Hitung Cicilan</button>
                 </div>
