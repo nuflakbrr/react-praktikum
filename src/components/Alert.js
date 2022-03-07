@@ -10,7 +10,6 @@ function Alert({ heading, type, icons }) {
                         <h4 className="alert-heading">{heading}</h4>
                     </div>
                 </div>
-                <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </div >
     )
