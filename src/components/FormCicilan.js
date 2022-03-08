@@ -29,10 +29,10 @@ function FormCicilan() {
                 </div>
                 <form onSubmit={calculate}>
                     <div className='form-group mb-3'>
-                        <TextInput label='Nominal' onChange={(e) => setNominal(e.target.value)} value={nominal} id='nominal' type='number' placeholder='Silakan masukkan nominal disini' />
+                        <TextInput label='Nominal (ex: 5000000)' onChange={(e) => setNominal(e.target.value)} value={nominal} id='nominal' type='number' placeholder='Silakan masukkan nominal disini' />
                     </div>
                     <div className='form-group mb-3'>
-                        <TextInput label='Bunga' onChange={(e) => setBunga(e.target.value)} value={bunga} type='number' placeholder='Silakan masukkan nominal disini' margin='me-4' extra='%' />
+                        <TextInput label='Bunga (ex: 25)' onChange={(e) => setBunga(e.target.value)} value={bunga} type='number' placeholder='Silakan masukkan nominal disini' margin='me-4' extra='%' />
                     </div>
                     <div className='form-group mb-3'>
                         <label>Periode</label>
