@@ -5,7 +5,6 @@ import Modal from './Modal'
 import Alert from './Alert'
 
 function FormPajak() {
-    // membuat rumus pajak PPN dan diskon menggunakan useState
     const [nominal, setNominal] = useState(0)
     const [ppn, setPpn] = useState(0)
     const [diskon, setDiskon] = useState(0)
