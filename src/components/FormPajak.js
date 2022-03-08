@@ -30,7 +30,7 @@ function FormPajak() {
             <div className='card p-3 my-5'>
                 <h2 className='text-center fw-bold'>Hasil</h2>
             </div>
-            <Modal id='Pajak' title='Tentang Kalkulator Pajak' content='Kalkulator Pajak adalah alat bantu hitung Pajak (Pajak Penghasilan). Pajak Pertambahan Nilai atau PPN adalah pungutan yang dibebankan atas transaksi jual-beli barang dan jasa yang dilakukan oleh wajib pajak pribadi atau wajib pajak badan yang telah menjadi Pengusaha Kena Pajak (PKP).' />
+            <Modal id='Pajak' title='Tentang Kalkulator Pajak' content='Kalkulator Pajak adalah alat bantu hitung Pajak (Pajak Penambahan Nilai). Pajak Pertambahan Nilai atau PPN adalah pungutan yang dibebankan atas transaksi jual-beli barang dan jasa yang dilakukan oleh wajib pajak pribadi atau wajib pajak badan yang telah menjadi Pengusaha Kena Pajak (PKP).' />
         </>
     )
 }
