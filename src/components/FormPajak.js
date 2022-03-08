@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 import TextInput from './TextInput'
-import Modal from './Modal'
 import Alert from './Alert'
+import Modal from './Modal'
 
 function FormPajak() {
     const [nominal, setNominal] = useState(0)
