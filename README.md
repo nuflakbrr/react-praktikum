@@ -5,7 +5,7 @@ Create an few Study Case in One Project for [SMK Telkom Malang](https://smktelko
 ## On this Project
 
 - [x] BMI Calculator
-- [ ] Cicilan Bank
+- [x] Cicilan Bank
 - [x] Pajak PPN
 - [ ] Konversi Bilangan
 
