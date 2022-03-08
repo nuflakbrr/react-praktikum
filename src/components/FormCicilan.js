@@ -38,19 +38,12 @@ function FormCicilan() {
                         <label>Periode</label>
                         <div className='d-flex align-items-center'>
                             <select className='form-select me-3' onChange={(e) => setPeriode(e.target.value)} value={periode}>
-                                <option selected disabled>Pilih Bulan</option>
-                                <option value='1'>1 Bulan</option>
-                                <option value='2'>2 Bulan</option>
-                                <option value='3'>3 Bulan</option>
-                                <option value='4'>4 Bulan</option>
-                                <option value='5'>5 Bulan</option>
                                 <option value='6'>6 Bulan</option>
-                                <option value='7'>7 Bulan</option>
-                                <option value='8'>8 Bulan</option>
-                                <option value='9'>9 Bulan</option>
-                                <option value='10'>10 Bulan</option>
-                                <option value='11'>11 Bulan</option>
                                 <option value='12'>12 Bulan</option>
+                                <option value='18'>18 Bulan</option>
+                                <option value='24'>24 Bulan</option>
+                                <option value='30'>30 Bulan</option>
+                                <option value='36'>36 Bulan</option>
                             </select>
                             <span>bln</span>
                         </div>
