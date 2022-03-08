@@ -6,7 +6,7 @@ Create an few Study Case in One Project for [SMK Telkom Malang](https://smktelko
 
 - [x] BMI Calculator
 - [ ] Cicilan Bank
-- [ ] Pajak PPN
+- [x] Pajak PPN
 - [ ] Konversi Bilangan
 
 ## Authors
