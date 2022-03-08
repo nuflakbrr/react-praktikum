@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import TextInput from './TextInput'
 import Alert from './Alert'
