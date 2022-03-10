@@ -9,6 +9,14 @@ Create an few Study Case in One Project for [SMK Telkom Malang](https://smktelko
 - [x] Kalkulator Pajak PPN
 - [x] Kalkulator Konversi Bilangan
 
+## Frameworks / Library in use
+
+- [x] React.js
+- [x] Bootstrap (Icons, Jquery, Popper.js)
+- [x] React Router Dom
+- [x] React Helmet
+- [x] React Markdown
+
 ## Screenshoots
 
 - Beranda
