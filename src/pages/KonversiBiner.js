@@ -3,7 +3,7 @@ import React from 'react'
 import FormKonversiBiner from '../components/FormKonversiBiner'
 import Main from '../layouts/Main'
 
-const Konversi = () => {
+const KonversiBiner = () => {
     return (
         <>
             <Main>
@@ -13,4 +13,4 @@ const Konversi = () => {
     )
 }
 
-export default Konversi
+export default KonversiBiner

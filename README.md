@@ -4,10 +4,42 @@ Create an few Study Case in One Project for [SMK Telkom Malang](https://smktelko
 
 ## On this Project
 
-- [x] BMI Calculator
-- [x] Cicilan Bank
-- [x] Pajak PPN
-- [ ] Konversi Bilangan
+- [x] Kalkulator BMI
+- [x] Kalkulator Cicilan Bank
+- [x] Kalkulator Pajak PPN
+- [x] Kalkulator Konversi Bilangan
+
+## Screenshoots
+
+- Beranda
+
+![Beranda](./screenshoots/home.png)
+
+- BMI
+
+![BMI](./screenshoots/bmi.png)
+
+- Cicilan Bank
+
+![Cicilan Bank](./screenshoots/cicilan.png)
+
+- Pajak PPN
+
+![PPN](./screenshoots/ppn.png)
+
+- Konversi Bilangan
+
+    - Biner
+    ![Biner](./screenshoots/biner.png)
+
+    - Oktal
+    ![Oktal](./screenshoots/oktal.png)
+
+    - Desimal
+    ![Desimal](./screenshoots/desimal.png)
+
+    - Heksadesimal
+    ![Heksadesimal](./screenshoots/heksadesimal.png)
 
 ## Authors
 

@@ -25,7 +25,7 @@ function FormPajak() {
             <div className='card p-3'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <h2 className='text-center fw-bold'>Kalkulator Pajak</h2>
-                    <button className='btn btn-dark badge ms-3' data-bs-toggle='modal' data-bs-target='#Pajak'><i class='bi bi-info-circle-fill'></i></button>
+                    <button className='btn btn-dark badge ms-3' data-bs-toggle='modal' data-bs-target='#Pajak'><i className='bi bi-info-circle-fill'></i></button>
                 </div>
                 <form onSubmit={calculate}>
                     <div className='form-group mb-3'>

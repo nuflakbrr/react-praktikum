@@ -24,7 +24,7 @@ const FormBMI = () => {
             <div className='card p-3'>
                 <div className='d-flex justify-content-center align-items-center'>
                     <h2 className='text-center fw-bold'>Kalkulator BMI</h2>
-                    <button className='btn btn-dark badge ms-3' data-bs-toggle='modal' data-bs-target='#BMI'><i class='bi bi-info-circle-fill'></i></button>
+                    <button className='btn btn-dark badge ms-3' data-bs-toggle='modal' data-bs-target='#BMI'><i className='bi bi-info-circle-fill'></i></button>
                 </div>
                 <form onSubmit={calculate}>
                     <div className='form-group mb-3'>

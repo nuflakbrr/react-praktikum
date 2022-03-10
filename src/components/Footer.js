@@ -28,7 +28,7 @@ const Footer = () => {
                     </li>
                     <li className="ms-3">
                         <a className="text-muted" href="https://naufalakbar.me/" target='_blank' rel='noreferrer'>
-                            <i class="bi bi-globe2"></i>
+                            <i className="bi bi-globe2"></i>
                         </a>
                     </li>
                 </ul>
