@@ -6,8 +6,6 @@ import { BrowserRouter } from "react-router-dom"
 import * as serviceWorkerRegistration from './serviceWorkerRegistration'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
-import $ from 'jquery'
-import Popper from 'popper.js'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import reportWebVitals from './reportWebVitals'
 
