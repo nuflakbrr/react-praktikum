@@ -6,7 +6,6 @@ import SEO from '../components/SEO'
 
 const Home = () => {
     const markdown = `
-
     Create an few Study Case in One Project for [SMK Telkom Malang](https://smktelkom-mlg.sch.id).
     
     ## On this Project
